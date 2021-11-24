@@ -1,0 +1,43 @@
+.game-area{
+    position: relative;
+    margin: 50px auto;
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    z-index: 0;
+}
+.snake-dot{
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    background-color: black;
+    border: 1px solid white;
+    z-index: 2;
+}
+.snake-food{
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    background: red;
+    border: 1px solid white;
+    z-index: 1;
+}
+.modal{
+    position: absolute;
+    z-index: 1;
+    width: 62vw;
+    height: 96vh;
+    background: #000;
+    color: red;
+}
+.modal h2{
+    font-size: xxx-large;
+    margin: 40% 30%;
+}
+.modal button{
+    background: #000;
+    color: red;
+    float: right;
+    margin: 1vh 2vw;
+    font-size: xx-large;
+}
